@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
             super.onLocationResult(locationResult);
             Location location = locationResult.getLastLocation();
             longt.setText(String.valueOf(location.getLongitude()));
-            attitd.setText(String.valueOf(location.getAltitude()));
+            attitd.setText(String.valueOf(location.getLatitude()));
              getStreatName(location);
 
 
